@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 12px;
+}
+
+.container{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Beyonc%C3%A9_-_Renaissance.png/220px-Beyonc%C3%A9_-_Renaissance.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.icon-2{
+    position: relative;
+    top : 62px;
+    right : 12px;
+    text-align: center;
+}
+
+i{
+    background-color: red;
+}
+
+.box {
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    line-height: 24px;
+}
+.line {
+    width: 1px;
+    height: 12px;
+    background-color: white;
+    position: absolute;
+}
+#box1 {
+    top: 0;
+    right: 0;
+    line-height: 24px;
+}
+#box2 {
+    top: 36px;
+    right: 0
+}
+#box3 {
+    top: 72px;
+    right: 0px;
+}
+#line1 {
+    top: 25px;
+    right: 12px;
+}
+#line2 {
+    top: 61px;
+    right: 12px;
+}
+
+.icon-1{
+    position: absolute;
+    top : 16px;
+    left : 12px;
+    background-color: red;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding : 2px;
+}
+
+.article-text{
+    position: absolute;
+    bottom: 0;
+    left: 12px;
+}
+
+.text-1 , .text-2{
+    padding : 4px 0;
+}
